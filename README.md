@@ -28,7 +28,7 @@ This repository is set up as a **GitHub template repository**. Click **"Use this
 The easiest way to start using this template is by running:
 
 ```bash
-npx create-next-app my-app -e https://github.com/irtec/started-nextjs-15-template
+npx create-next-app@latest my-app -e https://github.com/irtec/started-nextjs-15-template
 ```
 
 or
