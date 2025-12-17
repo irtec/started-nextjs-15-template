@@ -8,9 +8,10 @@ interface Props {
 	category?: string
 }
 
-const siteUrl = process.env.NEXT_PUBLIC_BASE_URL as string
-const siteName = 'Started kit nextjs 15 template'
-const descriptionDefault = 'Started kit nextjs 15 template'
+const siteUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
+const siteName = 'Next.js Secure Template'
+const descriptionDefault =
+	'A secure Next.js 16 template with comprehensive security features'
 
 export const generateMetadata = ({
 	title,

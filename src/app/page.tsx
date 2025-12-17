@@ -1,6 +1,6 @@
 import ThemeToggle from '@/components/theme/theme-toggle'
 
-const page = () => {
+const Page = () => {
 	return (
 		<div className="flex flex-col items-center justify-center h-screen">
 			<ThemeToggle />
@@ -9,4 +9,4 @@ const page = () => {
 	)
 }
 
-export default page
+export default Page

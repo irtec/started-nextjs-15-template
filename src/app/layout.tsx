@@ -5,8 +5,8 @@ import { generateMetadata } from '@/utils/generate-metadata'
 // Supports weights 100-900
 import '@fontsource-variable/geist'
 export const metadata: Metadata = generateMetadata({
-	title: 'Template Next.js 15',
-	description: 'Template Next.js 15',
+	title: 'Template Next.js 16',
+	description: 'A security-hardened Next.js 16 template',
 })
 
 export default function RootLayout({
